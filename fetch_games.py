@@ -42,6 +42,32 @@ def parse_moneyline(odds, side):
     return None
 
 
+def odds_to_probs(odds, home_abbr, away_abbr):
+    """Turn one ESPN odds entry into moneylines, win probabilities, and the favorite."""
+    odds = odds or {}
+    home_ml = parse_moneyline(odds, "home")
+    away_ml = parse_moneyline(odds, "away")
+    home_p, away_p = implied_prob(home_ml), implied_prob(away_ml)
+
+    # Remove the bookmaker's margin so the two probabilities add to 100%
+    if home_p and away_p:
+        total = home_p + away_p
+        home_p, away_p = home_p / total, away_p / total
+
+    favorite = None
+    if home_p and away_p:
+        favorite = home_abbr if home_p >= away_p else away_abbr
+
+    return {
+        "spread": odds.get("details"),          # e.g. "KC -3.5"
+        "home_moneyline": home_ml,
+        "away_moneyline": away_ml,
+        "home_win_prob": round(home_p, 3) if home_p else None,
+        "away_win_prob": round(away_p, 3) if away_p else None,
+        "vegas_favorite": favorite,
+    }
+
+
 def fetch_week(week=None, season=2026):
     params = {"seasontype": 2}  # 2 = regular season
     if week:
@@ -61,15 +87,9 @@ def fetch_week(week=None, season=2026):
             recs = c.get("records") or []
             return recs[0]["summary"] if recs else "0-0"
 
+        home_abbr = home["team"]["abbreviation"]
+        away_abbr = away["team"]["abbreviation"]
         odds = (comp.get("odds") or [{}])[0]
-        home_ml = parse_moneyline(odds, "home")
-        away_ml = parse_moneyline(odds, "away")
-        home_p, away_p = implied_prob(home_ml), implied_prob(away_ml)
-
-        # Remove the bookmaker's margin so the two probabilities add to 100%
-        if home_p and away_p:
-            total = home_p + away_p
-            home_p, away_p = home_p / total, away_p / total
 
         state = comp["status"]["type"]["state"]  # "pre", "in", or "post"
         winner = None
@@ -77,23 +97,14 @@ def fetch_week(week=None, season=2026):
             winner = next((c["team"]["abbreviation"] for c in comp["competitors"]
                            if c.get("winner")), None)
 
-        favorite = None
-        if home_p and away_p:
-            favorite = home["team"]["abbreviation"] if home_p >= away_p else away["team"]["abbreviation"]
-
         games.append({
             "game_id": event["id"],
             "kickoff": event["date"],
-            "home": home["team"]["abbreviation"],
-            "away": away["team"]["abbreviation"],
+            "home": home_abbr,
+            "away": away_abbr,
             "home_record": record(home),
             "away_record": record(away),
-            "spread": odds.get("details"),          # e.g. "KC -3.5"
-            "home_moneyline": home_ml,
-            "away_moneyline": away_ml,
-            "home_win_prob": round(home_p, 3) if home_p else None,
-            "away_win_prob": round(away_p, 3) if away_p else None,
-            "vegas_favorite": favorite,
+            **odds_to_probs(odds, home_abbr, away_abbr),
             "status": state,
             "winner": winner,
         })

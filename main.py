@@ -5,6 +5,7 @@ NFL Pick'em Agent
   python main.py score        -> score last week's picks against real results
   python main.py score 9      -> score a specific week
   python main.py summary      -> season scoreboard vs. Vegas favorites
+  python main.py backtest     -> replay weeks 1-7 and compare all strategies
 """
 
 import sys
@@ -42,5 +43,8 @@ if __name__ == "__main__":
         run_score(int(sys.argv[2]) if len(sys.argv) > 2 else None)
     elif cmd == "summary":
         print(season_summary())
+    elif cmd == "backtest":
+        from backtest import run_backtest
+        run_backtest()
     else:
         run_picks()

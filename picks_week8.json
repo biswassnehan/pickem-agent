@@ -1,0 +1,467 @@
+{
+  "week": 8,
+  "made_at": "2026-10-28T21:44:07.517240+00:00",
+  "model": "claude-sonnet-5-5",
+  "strategy": "blend",
+  "picks": [
+    {
+      "game_id": "401873023",
+      "matchup": "CAR @ GB",
+      "vegas_favorite": "GB",
+      "vegas_prob": 0.631,
+      "pick": "GB",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.634,
+      "reason": "Green Bay has home field and a slightly better record and recent form (three wins in its last four, including a 31-7 win over CHI), while Carolina is coming off a 43-13 loss to TB and has multiple offensive linemen out, though both teams are on short rest and GB also has O-line injuries.",
+      "override_factor": null,
+      "claude_pick": "GB",
+      "claude_prob": 0.64,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "GB": {
+          "recent_games": [
+            "L 20-17 @ DET",
+            "W 23-13 vs DAL",
+            "W 31-7 vs CHI",
+            "W 17-14 @ TB"
+          ],
+          "days_rest": 4,
+          "injuries": [
+            "Matthew Golden (WR) - Questionable",
+            "Travis Glover (OT) - Out",
+            "Devonte Wyatt (DT) - Questionable",
+            "Sean Rhyan (G) - Out",
+            "Zaire Franklin (LB) - Out"
+          ]
+        },
+        "CAR": {
+          "recent_games": [
+            "L 43-13 vs TB",
+            "W 25-14 @ PHI",
+            "W 32-26 vs DET",
+            "L 21-18 @ CLE"
+          ],
+          "days_rest": 4,
+          "injuries": [
+            "Akayleb Evans (CB) - Out",
+            "Bobby Brown III (DT) - Questionable",
+            "Damien Lewis (G) - Out",
+            "Jaelan Phillips (LB) - Out",
+            "Torricelli Simpkins III (G) - Out"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873026",
+      "matchup": "BAL @ BUF",
+      "vegas_favorite": "BUF",
+      "vegas_prob": 0.616,
+      "pick": "BUF",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.635,
+      "reason": "Buffalo has the better record, home field, and extra rest (13 days vs 7), while Baltimore has lost two straight (including a 35-13 loss to CIN) and has Lamar Jackson and several other starters questionable.",
+      "override_factor": null,
+      "claude_pick": "BUF",
+      "claude_prob": 0.68,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "BUF": {
+          "recent_games": [
+            "W 33-30 @ LV",
+            "W 37-34 OT @ LAR",
+            "L 29-26 vs NE",
+            "W 24-16 vs LAC"
+          ],
+          "days_rest": 13,
+          "injuries": [
+            "Dee Alford (CB) - Questionable",
+            "Bradley Chubb (LB) - Questionable",
+            "T.J. Sanders (DT) - Questionable",
+            "TJ Parker (LB) - Questionable"
+          ]
+        },
+        "BAL": {
+          "recent_games": [
+            "L 35-13 vs CIN",
+            "L 13-10 @ CLE",
+            "W 30-23 OT @ ATL",
+            "W 24-18 vs TEN"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Lamar Jackson (QB) - Questionable",
+            "Ronnie Stanley (OT) - Questionable",
+            "John Jenkins (DT) - Questionable",
+            "John Simpson (G) - Questionable",
+            "Roquan Smith (LB) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873031",
+      "matchup": "TEN @ CIN",
+      "vegas_favorite": "CIN",
+      "vegas_prob": 0.804,
+      "pick": "CIN",
+      "method": "auto",
+      "confidence": 0.8,
+      "reason": "Heavy Vegas favorite (80%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873024",
+      "matchup": "ARI @ DAL",
+      "vegas_favorite": "DAL",
+      "vegas_prob": 0.741,
+      "pick": "DAL",
+      "method": "auto",
+      "confidence": 0.74,
+      "reason": "Heavy Vegas favorite (74%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873030",
+      "matchup": "MIN @ DET",
+      "vegas_favorite": "DET",
+      "vegas_prob": 0.604,
+      "pick": "DET",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.567,
+      "reason": "Minnesota's 6-0 record and steady wins on the road and at home are offset by Detroit's home field and a Lions offense that scores more (though several key Detroit skill players are questionable), making this close to a toss-up with a slight edge to the undefeated Vikings.",
+      "override_factor": null,
+      "claude_pick": "MIN",
+      "claude_prob": 0.52,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "DET": {
+          "recent_games": [
+            "W 20-17 vs GB",
+            "W 45-21 @ ARI",
+            "L 32-26 @ CAR",
+            "W 31-24 vs NYJ"
+          ],
+          "days_rest": 6,
+          "injuries": [
+            "Amon-Ra St. Brown (WR) - Questionable",
+            "Jacob Saylors (RB) - Questionable",
+            "Jahmyr Gibbs (RB) - Questionable",
+            "Ennis Rakestraw Jr. (CB) - Questionable",
+            "Tyleik Williams (DT) - Questionable"
+          ]
+        },
+        "MIN": {
+          "recent_games": [
+            "W 16-10 vs IND",
+            "W 23-13 @ NO",
+            "W 15-10 vs MIA",
+            "W 23-16 @ TB"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Aaron Jones Sr. (RB) - Questionable",
+            "Michael Briscoe (WR) - Out",
+            "Brian O'Neill (OT) - Questionable",
+            "Joe Huber (G) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873029",
+      "matchup": "LV @ NYJ",
+      "vegas_favorite": "NYJ",
+      "vegas_prob": 0.532,
+      "pick": "NYJ",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.528,
+      "reason": "Both teams are struggling (LV has lost four straight, NYJ is 2-5), so NYJ's home field and an extra day of rest give a slight edge, though injuries on both sides keep this close to a toss-up.",
+      "override_factor": null,
+      "claude_pick": "NYJ",
+      "claude_prob": 0.52,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "NYJ": {
+          "recent_games": [
+            "L 28-25 vs MIA",
+            "L 26-19 @ NE",
+            "W 17-12 vs CLE",
+            "L 23-12 @ CHI"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Braelon Allen (RB) - Questionable",
+            "Breece Hall (RB) - Questionable",
+            "Joseph Ossai (DE) - Doubtful",
+            "David Bailey (LB) - Questionable",
+            "T'Vondre Sweat (DT) - Doubtful"
+          ]
+        },
+        "LV": {
+          "recent_games": [
+            "L 35-21 vs LAR",
+            "L 33-30 vs BUF",
+            "L 45-17 @ NE",
+            "L 30-27 vs KC"
+          ],
+          "days_rest": 6,
+          "injuries": [
+            "Brock Bowers (TE) - Questionable",
+            "DJ Glaze (OT) - Questionable",
+            "Ian Thomas (TE) - Questionable",
+            "Folorunso Fatukasi (DT) - Questionable",
+            "Quay Walker (LB) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873027",
+      "matchup": "CLE @ PIT",
+      "vegas_favorite": "PIT",
+      "vegas_prob": 0.631,
+      "pick": "PIT",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.616,
+      "reason": "Both teams are 5-2 with equal rest, so Pittsburgh's home field edge decides it, though several questionable defensive starters (Ramsey, Highsmith) and Cleveland's earlier win in this matchup keep the margin slim.",
+      "override_factor": null,
+      "claude_pick": "PIT",
+      "claude_prob": 0.58,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "PIT": {
+          "recent_games": [
+            "W 16-10 vs NO",
+            "W 26-19 OT @ TB",
+            "W 34-22 vs IND",
+            "L 27-24 @ CLE"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Ben Skowronek (WR) - Questionable",
+            "Brandin Echols (CB) - Questionable",
+            "Doneiko Slaughter (CB) - Questionable",
+            "Jalen Ramsey (CB) - Questionable",
+            "Alex Highsmith (LB) - Questionable"
+          ]
+        },
+        "CLE": {
+          "recent_games": [
+            "W 27-24 @ TEN",
+            "W 13-10 vs BAL",
+            "L 17-12 @ NYJ",
+            "W 27-24 vs PIT"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Tytus Howard (OT) - Questionable",
+            "Jared Verse (DE) - Questionable",
+            "Myles Harden (CB) - Questionable",
+            "Mike Hall Jr. (DT) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873025",
+      "matchup": "ATL @ TB",
+      "vegas_favorite": "TB",
+      "vegas_prob": 0.551,
+      "pick": "TB",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.533,
+      "reason": "Atlanta has the slightly better record (3-4 vs 2-5) and has beaten SF and NO recently, but Tampa Bay's home field and a 43-13 win at CAR make this nearly a toss-up.",
+      "override_factor": null,
+      "claude_pick": "ATL",
+      "claude_prob": 0.51,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "TB": {
+          "recent_games": [
+            "W 43-13 @ CAR",
+            "L 26-19 OT vs PIT",
+            "W 24-16 @ DAL",
+            "L 17-14 vs GB"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Emeka Egbuka (WR) - Questionable",
+            "Kenny Gainwell (RB) - Questionable",
+            "Luke Goedeke (OT) - Questionable",
+            "Josiah Trotter (LB) - Questionable",
+            "Yaya Diaby (LB) - Questionable"
+          ]
+        },
+        "ATL": {
+          "recent_games": [
+            "W 29-20 vs SF",
+            "L 31-23 vs CHI",
+            "L 30-23 OT vs BAL",
+            "W 45-24 @ NO"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Brian Robinson Jr. (RB) - Questionable",
+            "Jawaan Taylor (OT) - Questionable",
+            "LaCale London (DE) - Questionable",
+            "Samson Ebukam (DE) - Questionable",
+            "Charles Snowden (LB) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873028",
+      "matchup": "IND @ JAX",
+      "vegas_favorite": "JAX",
+      "vegas_prob": 0.8,
+      "pick": "JAX",
+      "method": "auto",
+      "confidence": 0.8,
+      "reason": "Heavy Vegas favorite (80%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873032",
+      "matchup": "LAC @ LAR",
+      "vegas_favorite": "LAR",
+      "vegas_prob": 0.71,
+      "pick": "LAR",
+      "method": "auto",
+      "confidence": 0.71,
+      "reason": "Heavy Vegas favorite (71%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873033",
+      "matchup": "KC @ DEN",
+      "vegas_favorite": "KC",
+      "vegas_prob": 0.517,
+      "pick": "KC",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.503,
+      "reason": "Denver gets home field (and a rest edge of one day) in a matchup of near-equal records, and KC's most recent game was a lopsided 20-3 loss at Seattle, though Denver's key defensive players being questionable and KC's stronger overall results keep this close to a toss-up.",
+      "override_factor": null,
+      "claude_pick": "DEN",
+      "claude_prob": 0.53,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "DEN": {
+          "recent_games": [
+            "W 30-16 @ ARI",
+            "W 17-14 OT vs SEA",
+            "W 23-17 @ LAC",
+            "L 24-14 @ SF"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Jaylen Waddle (WR) - Questionable",
+            "Pat Surtain II (CB) - Questionable",
+            "Zach Allen (DE) - Questionable",
+            "Talanoa Hufanga (S) - Questionable"
+          ]
+        },
+        "KC": {
+          "recent_games": [
+            "L 20-3 @ SEA",
+            "W 22-6 vs LAC",
+            "W 30-27 @ LV",
+            "W 24-10 @ MIA"
+          ],
+          "days_rest": 6,
+          "injuries": [
+            "Rashee Rice (WR) - Questionable",
+            "Jaylon Moore (OT) - Questionable",
+            "L'Jarius Sneed (CB) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873034",
+      "matchup": "NE @ MIA",
+      "vegas_favorite": "NE",
+      "vegas_prob": 0.726,
+      "pick": "NE",
+      "method": "auto",
+      "confidence": 0.73,
+      "reason": "Heavy Vegas favorite (73%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873035",
+      "matchup": "PHI @ WSH",
+      "vegas_favorite": "WSH",
+      "vegas_prob": 0.669,
+      "pick": "WSH",
+      "method": "auto",
+      "confidence": 0.67,
+      "reason": "Heavy Vegas favorite (67%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873036",
+      "matchup": "CHI @ SEA",
+      "vegas_favorite": "SEA",
+      "vegas_prob": 0.6,
+      "pick": "SEA",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.579,
+      "reason": "Seattle has home field advantage and a strong recent win over KC, which roughly offsets Chicago's better record and extra rest, making this nearly a toss-up with a slight edge to the home team.",
+      "override_factor": null,
+      "claude_pick": "SEA",
+      "claude_prob": 0.53,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "SEA": {
+          "recent_games": [
+            "W 20-3 vs KC",
+            "L 17-14 OT @ DEN",
+            "L 32-29 vs SF",
+            "W 30-23 vs LAC"
+          ],
+          "days_rest": 8,
+          "injuries": [
+            "Drew Lock (QB) - Questionable",
+            "Zach Charbonnet (RB) - Questionable",
+            "Chazz Surratt (LB) - Questionable",
+            "Connor O'Toole (LB) - Questionable",
+            "Drake Thomas (LB) - Questionable"
+          ]
+        },
+        "CHI": {
+          "recent_games": [
+            "W 30-24 vs NE",
+            "W 31-23 @ ATL",
+            "L 31-7 @ GB",
+            "W 23-12 vs NYJ"
+          ],
+          "days_rest": 11,
+          "injuries": [
+            "Kyle Monangai (RB) - Questionable",
+            "Jack Sanborn (LB) - Questionable",
+            "T.J. Edwards (LB) - Questionable"
+          ]
+        }
+      }
+    }
+  ],
+  "skipped_already_started": []
+}

@@ -20,14 +20,20 @@ def _parse_date(s):
     return datetime.fromisoformat(s.replace("Z", "+00:00"))
 
 
-def get_game_context(game):
+def fetch_summary(game_id):
+    """Download ESPN's full summary for one game (form, injuries, odds)."""
+    resp = requests.get(SUMMARY_URL, params={"event": game_id}, timeout=15)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def get_game_context(game, data=None):
     """Return {team_abbr: {recent_games, days_rest, injuries}} for one game."""
-    try:
-        resp = requests.get(SUMMARY_URL, params={"event": game["game_id"]}, timeout=15)
-        resp.raise_for_status()
-        data = resp.json()
-    except Exception as e:
-        return {"note": f"Context unavailable ({e})"}
+    if data is None:
+        try:
+            data = fetch_summary(game["game_id"])
+        except Exception as e:
+            return {"note": f"Context unavailable ({e})"}
 
     kickoff = _parse_date(game["kickoff"])
     ctx = {game["home"]: {}, game["away"]: {}}
