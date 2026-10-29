@@ -8,6 +8,8 @@ NFL Pick'em Agent
   python main.py backtest     -> replay weeks 1-7 and compare all strategies
 """
 
+import glob
+import re
 import sys
 
 from fetch_games import fetch_week
@@ -30,11 +32,18 @@ def run_picks():
 
 def run_score(week=None):
     if week is None:
-        current, _ = fetch_week()
-        week = current - 1
-    score_week(week)
+        # Score every week that has saved picks. Re-scoring is safe (rows are
+        # replaced, not duplicated) and avoids guessing which week just ended.
+        weeks = sorted(int(re.search(r"(\d+)", f).group(1)) for f in glob.glob("picks_week*.json"))
+    else:
+        weeks = [week]
+    for w in weeks:
+        score_week(w)
+    summary = season_summary()
     print()
-    print(season_summary())
+    print(summary)
+    if weeks and summary != "No results yet.":
+        send_email(f"Pick'em Agent - Results through Week {weeks[-1]}", summary)
 
 
 if __name__ == "__main__":
