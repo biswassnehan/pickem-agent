@@ -1,0 +1,392 @@
+{
+  "week": 9,
+  "made_at": "2026-11-04T20:50:25.387837+00:00",
+  "model": "claude-sonnet-5-5",
+  "strategy": "blend",
+  "picks": [
+    {
+      "game_id": "401873037",
+      "matchup": "JAX @ BAL",
+      "vegas_favorite": "JAX",
+      "vegas_prob": 0.808,
+      "pick": "JAX",
+      "method": "auto",
+      "confidence": 0.81,
+      "reason": "Heavy Vegas favorite (81%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873038",
+      "matchup": "CIN @ ATL",
+      "vegas_favorite": "CIN",
+      "vegas_prob": 0.583,
+      "pick": "CIN",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.594,
+      "reason": "Cincinnati's 5-2 record and strong recent form (wins over BAL and MIA, a high-scoring OT win) outweigh Atlanta's 3-5 record and a shutout loss at TB, and home field only partly offsets that gap.",
+      "override_factor": null,
+      "claude_pick": "CIN",
+      "claude_prob": 0.62,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "ATL": {
+          "recent_games": [
+            "L 16-0 @ TB",
+            "W 29-20 vs SF",
+            "L 31-23 vs CHI",
+            "L 30-23 OT vs BAL"
+          ],
+          "days_rest": 6,
+          "injuries": [
+            "Brian Robinson Jr. (RB) - Questionable",
+            "Zachariah Branch (WR) - Out",
+            "Divine Deablo (LB) - Questionable"
+          ]
+        },
+        "CIN": {
+          "recent_games": [
+            "W 43-36 OT vs TEN",
+            "W 35-13 @ BAL",
+            "W 31-24 @ MIA",
+            "L 22-17 vs JAX"
+          ],
+          "days_rest": 6,
+          "injuries": [
+            "Cedric Johnson (DE) - Questionable",
+            "DJ Turner II (CB) - Questionable",
+            "Jordan Battle (S) - Questionable",
+            "Kyle Dugger (S) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873040",
+      "matchup": "DAL @ IND",
+      "vegas_favorite": "DAL",
+      "vegas_prob": 0.681,
+      "pick": "DAL",
+      "method": "auto",
+      "confidence": 0.68,
+      "reason": "Heavy Vegas favorite (68%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873045",
+      "matchup": "NYJ @ KC",
+      "vegas_favorite": "KC",
+      "vegas_prob": 0.822,
+      "pick": "KC",
+      "method": "auto",
+      "confidence": 0.82,
+      "reason": "Heavy Vegas favorite (82%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873042",
+      "matchup": "DET @ MIA",
+      "vegas_favorite": "DET",
+      "vegas_prob": 0.748,
+      "pick": "DET",
+      "method": "auto",
+      "confidence": 0.75,
+      "reason": "Heavy Vegas favorite (75%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873039",
+      "matchup": "CLE @ NO",
+      "vegas_favorite": "NO",
+      "vegas_prob": 0.593,
+      "pick": "NO",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.55,
+      "reason": "Cleveland's better record (5-3 vs 2-5) gives it the edge, but New Orleans has home field and two weeks of rest, and Cleveland's QB Deshaun Watson is questionable and its offense has been inconsistent, which keeps this close.",
+      "override_factor": null,
+      "claude_pick": "CLE",
+      "claude_prob": 0.55,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "NO": {
+          "recent_games": [
+            "L 16-10 vs PIT",
+            "W 34-27 @ NYG",
+            "L 23-13 vs MIN",
+            "L 45-24 vs ATL"
+          ],
+          "days_rest": 14,
+          "injuries": [
+            "Cesar Ruiz (G) - Questionable",
+            "Justin Reid (S) - Questionable",
+            "Nathan Shepherd (DT) - Questionable"
+          ]
+        },
+        "CLE": {
+          "recent_games": [
+            "L 27-6 @ PIT",
+            "W 27-24 @ TEN",
+            "W 13-10 vs BAL",
+            "L 17-12 @ NYJ"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Deshaun Watson (QB) - Questionable",
+            "Quincy Williams (LB) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873044",
+      "matchup": "NYG @ PHI",
+      "vegas_favorite": "NYG",
+      "vegas_prob": 0.593,
+      "pick": "NYG",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.595,
+      "reason": "NYG has the better record (4-2-1 vs 2-6), has had 14 days of rest, and PHI has lost four straight, which outweighs PHI's home field and the likely return of its questionable receivers.",
+      "override_factor": null,
+      "claude_pick": "NYG",
+      "claude_prob": 0.6,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "PHI": {
+          "recent_games": [
+            "L 27-10 @ WSH",
+            "L 38-21 vs DAL",
+            "L 25-14 vs CAR",
+            "L 19-17 vs JAX"
+          ],
+          "days_rest": 6,
+          "injuries": [
+            "Britain Covey (WR) - Questionable",
+            "DeVonta Smith (WR) - Questionable",
+            "Dontayvion Wicks (WR) - Questionable",
+            "Jonathan Jones (CB) - Questionable",
+            "Jihaad Campbell (LB) - Questionable"
+          ]
+        },
+        "NYG": {
+          "recent_games": [
+            "W 27-21 OT @ HOU",
+            "L 34-27 vs NO",
+            "T 27-27 OT @ WSH",
+            "W 36-24 vs ARI"
+          ],
+          "days_rest": 14,
+          "injuries": [
+            "Cam Skattebo (RB) - Questionable",
+            "Marcus Mbow (OT) - Questionable",
+            "Theo Johnson (TE) - Questionable",
+            "Greg Newsome II (CB) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873043",
+      "matchup": "LAR @ WSH",
+      "vegas_favorite": "LAR",
+      "vegas_prob": 0.669,
+      "pick": "LAR",
+      "method": "auto",
+      "confidence": 0.67,
+      "reason": "Heavy Vegas favorite (67%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873041",
+      "matchup": "DEN @ CAR",
+      "vegas_favorite": "DEN",
+      "vegas_prob": 0.572,
+      "pick": "DEN",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.592,
+      "reason": "Denver is 6-2 on a four-game win streak with close wins over KC, SEA and LAC, while Carolina is 3-4 and was just beaten 43-13 by TB. Carolina's home field and extra rest (9 days vs 6) narrow the gap, but not enough to flip the pick.",
+      "override_factor": null,
+      "claude_pick": "DEN",
+      "claude_prob": 0.64,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "CAR": {
+          "recent_games": [
+            "L 27-19 @ GB",
+            "L 43-13 vs TB",
+            "W 25-14 @ PHI",
+            "W 32-26 vs DET"
+          ],
+          "days_rest": 9,
+          "injuries": [
+            "Bobby Brown III (DT) - Questionable",
+            "Damien Lewis (G) - Questionable",
+            "Torricelli Simpkins III (G) - Questionable"
+          ]
+        },
+        "DEN": {
+          "recent_games": [
+            "W 28-24 vs KC",
+            "W 30-16 @ ARI",
+            "W 17-14 OT vs SEA",
+            "W 23-17 @ LAC"
+          ],
+          "days_rest": 6,
+          "injuries": [
+            "Kris Abrams-Draine (CB) - Questionable",
+            "Brandon Jones (S) - Questionable",
+            "Talanoa Hufanga (S) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873046",
+      "matchup": "HOU @ LAC",
+      "vegas_favorite": "HOU",
+      "vegas_prob": 0.657,
+      "pick": "HOU",
+      "method": "auto",
+      "confidence": 0.66,
+      "reason": "Heavy Vegas favorite (66%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873049",
+      "matchup": "GB @ NE",
+      "vegas_favorite": "NE",
+      "vegas_prob": 0.604,
+      "pick": "NE",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.579,
+      "reason": "Records are identical at 5-3 and recent form is similar, so home field gives NE a slight edge, while GB's extra rest (9 days vs 7) and NE's several questionable skill players, offset by GB missing Micah Parsons, keep this close to a toss-up.",
+      "override_factor": null,
+      "claude_pick": "NE",
+      "claude_prob": 0.52,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "NE": {
+          "recent_games": [
+            "W 24-19 @ MIA",
+            "L 30-24 @ CHI",
+            "W 26-19 vs NYJ",
+            "W 45-17 vs LV"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "A.J. Brown (WR) - Questionable",
+            "TreVeyon Henderson (RB) - Questionable",
+            "Hunter Henry (TE) - Questionable",
+            "Gabe Jacas (LB) - Questionable"
+          ]
+        },
+        "GB": {
+          "recent_games": [
+            "W 27-19 vs CAR",
+            "L 20-17 @ DET",
+            "W 23-13 vs DAL",
+            "W 31-7 vs CHI"
+          ],
+          "days_rest": 9,
+          "injuries": [
+            "Christian Watson (WR) - Questionable",
+            "Travis Glover (OT) - Questionable",
+            "Micah Parsons (DE) - Out",
+            "Sean Rhyan (G) - Questionable",
+            "Zaire Franklin (LB) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873047",
+      "matchup": "LV @ SF",
+      "vegas_favorite": "SF",
+      "vegas_prob": 0.804,
+      "pick": "SF",
+      "method": "auto",
+      "confidence": 0.8,
+      "reason": "Heavy Vegas favorite (80%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873048",
+      "matchup": "ARI @ SEA",
+      "vegas_favorite": "SEA",
+      "vegas_prob": 0.782,
+      "pick": "SEA",
+      "method": "auto",
+      "confidence": 0.78,
+      "reason": "Heavy Vegas favorite (78%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873050",
+      "matchup": "TB @ CHI",
+      "vegas_favorite": "CHI",
+      "vegas_prob": 0.718,
+      "pick": "CHI",
+      "method": "auto",
+      "confidence": 0.72,
+      "reason": "Heavy Vegas favorite (72%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873051",
+      "matchup": "BUF @ MIN",
+      "vegas_favorite": "BUF",
+      "vegas_prob": 0.616,
+      "pick": "BUF",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.59,
+      "reason": "Both teams are 6-1 and Buffalo's offense has been more productive (36-10 win over BAL, 30+ points in three of four games), while Minnesota's scoring has been modest and its QB Kyler Murray is questionable, which roughly offsets Minnesota's home-field edge.",
+      "override_factor": null,
+      "claude_pick": "BUF",
+      "claude_prob": 0.53,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "MIN": {
+          "recent_games": [
+            "L 19-15 @ DET",
+            "W 16-10 vs IND",
+            "W 23-13 @ NO",
+            "W 15-10 vs MIA"
+          ],
+          "days_rest": 8,
+          "injuries": [
+            "Kyler Murray (QB) - Questionable",
+            "Christian Darrisaw (OT) - Questionable",
+            "Theo Jackson (S) - Questionable"
+          ]
+        },
+        "BUF": {
+          "recent_games": [
+            "W 36-10 vs BAL",
+            "W 33-30 @ LV",
+            "W 37-34 OT @ LAR",
+            "L 29-26 vs NE"
+          ],
+          "days_rest": 8,
+          "injuries": [
+            "DJ Moore (WR) - Questionable",
+            "Joshua Palmer (WR) - Questionable",
+            "Spencer Brown (OT) - Questionable",
+            "Dee Alford (CB) - Questionable",
+            "Greg Gaines (DT) - Questionable"
+          ]
+        }
+      }
+    }
+  ],
+  "skipped_already_started": []
+}
