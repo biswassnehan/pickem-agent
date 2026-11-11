@@ -1,0 +1,490 @@
+{
+  "week": 10,
+  "made_at": "2026-11-11T21:26:32.255303+00:00",
+  "model": "claude-sonnet-5-5",
+  "strategy": "blend",
+  "picks": [
+    {
+      "game_id": "401873052",
+      "matchup": "WSH @ NYG",
+      "vegas_favorite": "NYG",
+      "vegas_prob": 0.563,
+      "pick": "NYG",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.586,
+      "reason": "NYG has a much better record (5-2-1 vs 2-5-1), recent wins over PHI and HOU, and home field, while the earlier tie at WSH shows the teams are closer than the records suggest, which tempers confidence.",
+      "override_factor": null,
+      "claude_pick": "NYG",
+      "claude_prob": 0.64,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "NYG": {
+          "recent_games": [
+            "W 19-11 @ PHI",
+            "W 27-21 OT @ HOU",
+            "L 34-27 vs NO",
+            "T 27-27 OT @ WSH"
+          ],
+          "days_rest": 4,
+          "injuries": [
+            "J.J. McCarthy (QB) - Questionable",
+            "Cam Skattebo (RB) - Out",
+            "Colton Hood (CB) - Questionable",
+            "Abdul Carter (LB) - Questionable",
+            "Malik Harrison (LB) - Questionable"
+          ]
+        },
+        "WSH": {
+          "recent_games": [
+            "L 20-13 vs LAR",
+            "W 27-10 vs PHI",
+            "L 23-17 @ SF",
+            "T 27-27 OT vs NYG"
+          ],
+          "days_rest": 4,
+          "injuries": [
+            "Treylon Burks (WR) - Questionable",
+            "Colson Yankoff (TE) - Out",
+            "Lucas Patrick (G) - Out"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873053",
+      "matchup": "NE @ DET",
+      "vegas_favorite": "DET",
+      "vegas_prob": 0.572,
+      "pick": "DET",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.601,
+      "reason": "Detroit has the better record (6-2 vs 5-4), steadier recent results, and home field, while New England is coming off a 45-27 loss to GB and has multiple RB and C injuries, though Detroit's own injuries (Joseph out, several questionable) keep this from being a heavy lean.",
+      "override_factor": null,
+      "claude_pick": "DET",
+      "claude_prob": 0.67,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "DET": {
+          "recent_games": [
+            "W 19-9 @ MIA",
+            "W 19-15 vs MIN",
+            "W 20-17 vs GB",
+            "W 45-21 @ ARI"
+          ],
+          "days_rest": 6,
+          "injuries": [
+            "Jacob Saylors (RB) - Questionable",
+            "D.J. Reed (CB) - Questionable",
+            "Cade Mays (C) - Questionable",
+            "DJ Wonnum (LB) - Questionable",
+            "Kerby Joseph (S) - Out"
+          ]
+        },
+        "NE": {
+          "recent_games": [
+            "L 45-27 vs GB",
+            "W 24-19 @ MIA",
+            "L 30-24 @ CHI",
+            "W 26-19 vs NYJ"
+          ],
+          "days_rest": 6,
+          "injuries": [
+            "A.J. Brown (WR) - Questionable",
+            "Rhamondre Stevenson (RB) - Doubtful",
+            "TreVeyon Henderson (RB) - Questionable",
+            "Charles Woods (CB) - Questionable",
+            "Ben Brown (C) - Doubtful"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873058",
+      "matchup": "KC @ ATL",
+      "vegas_favorite": "KC",
+      "vegas_prob": 0.622,
+      "pick": "KC",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.627,
+      "reason": "KC has the better record (6-2 vs 3-6) and a recent blowout win, which outweighs ATL's home field, though Mahomes' questionable status and several other KC injuries keep the confidence moderate.",
+      "override_factor": null,
+      "claude_pick": "KC",
+      "claude_prob": 0.64,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "ATL": {
+          "recent_games": [
+            "L 34-17 vs CIN",
+            "L 16-0 @ TB",
+            "W 29-20 vs SF",
+            "L 31-23 vs CHI"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Zachariah Branch (WR) - Doubtful",
+            "Anterio Thompson (DT) - Out"
+          ]
+        },
+        "KC": {
+          "recent_games": [
+            "W 35-12 vs NYJ",
+            "L 28-24 @ DEN",
+            "L 20-3 @ SEA",
+            "W 22-6 vs LAC"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Patrick Mahomes (QB) - Questionable",
+            "Xavier Worthy (WR) - Questionable",
+            "Jaylon Moore (OT) - Questionable",
+            "Mansoor Delane (CB) - Questionable",
+            "Peter Woods (DT) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873056",
+      "matchup": "HOU @ CLE",
+      "vegas_favorite": "HOU",
+      "vegas_prob": 0.669,
+      "pick": "HOU",
+      "method": "auto",
+      "confidence": 0.67,
+      "reason": "Heavy Vegas favorite (67%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873060",
+      "matchup": "MIN @ GB",
+      "vegas_favorite": "GB",
+      "vegas_prob": 0.593,
+      "pick": "GB",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.601,
+      "reason": "Green Bay has home field and an extra day of rest, and Minnesota has lost two straight while its quarterback situation is uncertain (Wentz questionable, Murray doubtful), which outweighs GB's losses of Jacobs and Parsons.",
+      "override_factor": null,
+      "claude_pick": "GB",
+      "claude_prob": 0.62,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "GB": {
+          "recent_games": [
+            "W 45-27 @ NE",
+            "W 27-19 vs CAR",
+            "L 20-17 @ DET",
+            "W 23-13 vs DAL"
+          ],
+          "days_rest": 6,
+          "injuries": [
+            "Josh Jacobs (RB) - Out",
+            "MarShawn Lloyd (RB) - Questionable",
+            "Josh Whyle (TE) - Questionable",
+            "Micah Parsons (DE) - Out",
+            "Sean Rhyan (G) - Questionable"
+          ]
+        },
+        "MIN": {
+          "recent_games": [
+            "L 23-6 vs BUF",
+            "L 19-15 @ DET",
+            "W 16-10 vs IND",
+            "W 23-13 @ NO"
+          ],
+          "days_rest": 5,
+          "injuries": [
+            "Carson Wentz (QB) - Questionable",
+            "Kyler Murray (QB) - Doubtful",
+            "Jauan Jennings (WR) - Questionable",
+            "Tyrion Ingram-Dawkins (DE) - Questionable",
+            "Blake Cashman (LB) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873057",
+      "matchup": "JAX @ TEN",
+      "vegas_favorite": "JAX",
+      "vegas_prob": 0.808,
+      "pick": "JAX",
+      "method": "auto",
+      "confidence": 0.81,
+      "reason": "Heavy Vegas favorite (81%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873059",
+      "matchup": "MIA @ IND",
+      "vegas_favorite": "IND",
+      "vegas_prob": 0.631,
+      "pick": "IND",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.61,
+      "reason": "Both teams are struggling (MIA 1-7, IND 2-7) with equal rest and similarly minor injuries, so home field gives Indianapolis a slight edge, though its recent form, including a 42-7 loss, keeps the confidence low.",
+      "override_factor": null,
+      "claude_pick": "IND",
+      "claude_prob": 0.56,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "IND": {
+          "recent_games": [
+            "L 27-23 vs DAL",
+            "L 42-7 @ JAX",
+            "L 16-10 @ MIN",
+            "L 26-20 vs TEN"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Jalen Travis (OT) - Doubtful",
+            "Justin Walley (CB) - Questionable",
+            "Luke Rhodes (LS) - Questionable"
+          ]
+        },
+        "MIA": {
+          "recent_games": [
+            "L 19-9 vs DET",
+            "L 24-19 vs NE",
+            "W 28-25 @ NYJ",
+            "L 31-24 vs CIN"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Jaylen Wright (RB) - Questionable",
+            "Will Kacmarek (TE) - Questionable",
+            "Darrell Baker Jr. (CB) - Out"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873055",
+      "matchup": "CAR @ NO",
+      "vegas_favorite": "NO",
+      "vegas_prob": 0.551,
+      "pick": "NO",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.551,
+      "reason": "Both teams are 3-5 with equal rest, so New Orleans' home field edge and slightly better recent form (two wins in the last four, including an OT win) tip it narrowly, though McCoy's likely absence and other injuries keep confidence low.",
+      "override_factor": null,
+      "claude_pick": "NO",
+      "claude_prob": 0.55,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "NO": {
+          "recent_games": [
+            "W 23-22 OT vs CLE",
+            "L 16-10 vs PIT",
+            "W 34-27 @ NYG",
+            "L 23-13 vs MIN"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "CJ Donaldson (RB) - Questionable",
+            "Mason Tipton (WR) - Out",
+            "Erik McCoy (C) - Doubtful"
+          ]
+        },
+        "CAR": {
+          "recent_games": [
+            "L 26-21 vs DEN",
+            "L 27-19 @ GB",
+            "L 43-13 vs TB",
+            "W 25-14 @ PHI"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Bobby Okereke (LB) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873054",
+      "matchup": "BUF @ NYJ",
+      "vegas_favorite": "BUF",
+      "vegas_prob": 0.782,
+      "pick": "BUF",
+      "method": "auto",
+      "confidence": 0.78,
+      "reason": "Heavy Vegas favorite (78%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873062",
+      "matchup": "SEA @ LV",
+      "vegas_favorite": "SEA",
+      "vegas_prob": 0.71,
+      "pick": "SEA",
+      "method": "auto",
+      "confidence": 0.71,
+      "reason": "Heavy Vegas favorite (71%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873061",
+      "matchup": "LAR @ ARI",
+      "vegas_favorite": "LAR",
+      "vegas_prob": 0.782,
+      "pick": "LAR",
+      "method": "auto",
+      "confidence": 0.78,
+      "reason": "Heavy Vegas favorite (78%).",
+      "upset_call": false
+    },
+    {
+      "game_id": "401873063",
+      "matchup": "SF @ DAL",
+      "vegas_favorite": "SF",
+      "vegas_prob": 0.645,
+      "pick": "SF",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.637,
+      "reason": "San Francisco's 7-1 record and solid recent results outweigh Dallas's home-field edge, though Dallas's 4-5 record includes a win at Philadelphia and both teams have questionable skill-position players, which keeps the margin modest.",
+      "override_factor": null,
+      "claude_pick": "SF",
+      "claude_prob": 0.62,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "DAL": {
+          "recent_games": [
+            "W 27-23 @ IND",
+            "L 33-30 OT vs ARI",
+            "W 38-21 @ PHI",
+            "L 23-13 @ GB"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "George Pickens (WR) - Questionable",
+            "KaVontae Turpin (WR) - Questionable",
+            "Luke Schoonmaker (TE) - Questionable",
+            "Joey Porter Jr. (CB) - Questionable",
+            "DeMarvion Overshown (LB) - Questionable"
+          ]
+        },
+        "SF": {
+          "recent_games": [
+            "W 38-17 vs LV",
+            "L 29-20 @ ATL",
+            "W 23-17 vs WSH",
+            "W 32-29 @ SEA"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Deebo Samuel Sr. (WR) - Questionable",
+            "Mike Evans (WR) - Questionable",
+            "Deommodore Lenoir (CB) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873064",
+      "matchup": "PIT @ CIN",
+      "vegas_favorite": "CIN",
+      "vegas_prob": 0.609,
+      "pick": "CIN",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.588,
+      "reason": "Both teams are 6-2 and on win streaks, so the call is close; Cincinnati's home field and a high-scoring offense that has won four straight by 7 or more points edge out Pittsburgh's extra rest from a 14-day layoff and its tighter recent wins.",
+      "override_factor": null,
+      "claude_pick": "CIN",
+      "claude_prob": 0.54,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "CIN": {
+          "recent_games": [
+            "W 34-17 vs ATL",
+            "W 43-36 OT vs TEN",
+            "W 35-13 @ BAL",
+            "W 31-24 @ MIA"
+          ],
+          "days_rest": 7,
+          "injuries": [
+            "Kyle Dugger (S) - Questionable"
+          ]
+        },
+        "PIT": {
+          "recent_games": [
+            "W 27-6 vs CLE",
+            "W 16-10 vs NO",
+            "W 26-19 OT @ TB",
+            "W 34-22 vs IND"
+          ],
+          "days_rest": 14,
+          "injuries": [
+            "Ben Skowronek (WR) - Questionable",
+            "Brandin Echols (CB) - Questionable",
+            "Doneiko Slaughter (CB) - Questionable"
+          ]
+        }
+      }
+    },
+    {
+      "game_id": "401873065",
+      "matchup": "LAC @ BAL",
+      "vegas_favorite": "BAL",
+      "vegas_prob": 0.645,
+      "pick": "BAL",
+      "method": "ai",
+      "strategy": "blend",
+      "confidence": 0.643,
+      "reason": "Baltimore has home field and extra rest (11 vs 8 days) against an 0-8 Chargers team that is losing by wide margins and has Herbert questionable, though Baltimore's own recent form (four straight losses, three by 20+ points) and several questionable defenders keep this from being a heavy lean.",
+      "override_factor": null,
+      "claude_pick": "BAL",
+      "claude_prob": 0.64,
+      "upset_call": false,
+      "guardrail_note": null,
+      "context_used": {
+        "BAL": {
+          "recent_games": [
+            "L 33-10 vs JAX",
+            "L 36-10 @ BUF",
+            "L 35-13 vs CIN",
+            "L 13-10 @ CLE"
+          ],
+          "days_rest": 11,
+          "injuries": [
+            "Nate Wiggins (CB) - Questionable",
+            "Adisa Isaac (LB) - Questionable",
+            "Jaylinn Hawkins (S) - Questionable",
+            "Kyle Hamilton (S) - Questionable"
+          ]
+        },
+        "LAC": {
+          "recent_games": [
+            "L 44-22 vs HOU",
+            "L 24-9 @ LAR",
+            "L 22-6 @ KC",
+            "L 23-17 vs DEN"
+          ],
+          "days_rest": 8,
+          "injuries": [
+            "Justin Herbert (QB) - Questionable",
+            "Brenen Thompson (WR) - Questionable",
+            "Deane Leonard (CB) - Questionable",
+            "Kayode Awosika (G) - Questionable",
+            "Kendall Williamson (S) - Questionable"
+          ]
+        }
+      }
+    }
+  ],
+  "skipped_already_started": []
+}
